@@ -1,0 +1,71 @@
+<!DOCTYPE html> 
+<html>
+
+<head>
+  <title>E commerce site </title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+</head>
+
+<body>
+  <div id="main">
+    <header>
+	  <div id="banner">
+	    <div id="welcome">
+	      <h3>E-commerce website</h3>
+	    </div><!--close welcome-->
+	    <div id="welcome_slogan">
+	      <h3>chosse what you want</h3>
+	    </div><!--close welcome_slogan-->			
+	  </div><!--close banner-->
+    </header>
+
+	<nav>
+	  <div id="menubar">
+        <ul id="nav">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li class="current"><a href="register.html">Register</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div><!--close menubar-->	
+	</nav>	
+    
+	<div id="site_content">
+	
+	  <div id="content">
+        <div class="content_item">
+          <h1>Registration</h1>
+		<form action="storedata.php" method="post">
+<font size="4">
+<pre>                
+     
+First name	<input type="text" name="fn" class="fn" placeholder="First Name"><br>
+Last name	<input type="text" name="ln" class="ln" placeholder="Last Name"><br>
+
+user name	<input type="text" name="un" class="un" placeholder="User Name"><br> 
+Password	<input type="password" name="pwd" class="pwd" placeholder="Password"><br>
+mail		<input type="mail" name="mail" class="mail" placeholder="Password"><br>
+
+
+<br>
+                <button type="submit">Register</button>
+    </pre>
+</font>            
+            </form>
+    	    
+	    </div><!--close content_item-->
+      </div><!--close content-->   
+	</div><!--close site_content-->  	
+  </div><!--close main-->
+
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="js/jquery.js"></script>	
+  <script type="text/javascript" src="js/image_slide.js"></script>
+  
+</body>
+</html>
